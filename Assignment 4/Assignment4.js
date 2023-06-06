@@ -1,6 +1,6 @@
 
 
-var namez =["Aastha","Dhatrik","Joe","johnny","Rhodes","sins","jack"];
+var namez =["Yaakov","John","Jen","jason","Paul","frank","larry","paula","laura","jim"];
 
 
 function Greet(name) {
