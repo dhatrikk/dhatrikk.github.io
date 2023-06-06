@@ -1,0 +1,81 @@
+@media (min-width:992px) {
+div{
+    background-color: grey;
+    border: 2px solid black;
+    margin:0px 1% 0px 1%;
+    width: 29%;
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+}}
+
+@media (max-width:991px) and (min-width:768px) {
+    div{
+        background-color: grey;
+        border: 2px solid black;
+        margin:0px 1% 0px 1%;
+        width: 45%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+    }
+    div.y{
+        background-color: grey;
+        border: 2px solid black;
+        margin:0px 1% 0px 1%;
+        width: 95%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        margin-top: 25px;
+    }
+    }
+     
+
+
+    @media (max-width:767px) {
+        div{
+            background-color: grey;
+            border: 2px solid black;
+            margin:0px 1% 0px 1%;
+            width: 90%;
+            float: left;
+            padding-left: 1%;
+            padding-right: 1%;
+            position: relative;
+            margin-bottom: 25px;
+        }}
+        
+h1{
+text-align: center;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+
+h3{
+    border: 1px solid black;
+    width: 90px;
+    text-align: center;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0px;
+}
+
+.c{
+    background-color: peru;
+}
+.b{
+    background-color: orangered;
+    color: white;
+}
+.s{
+    background-color: burlywood;
+}
+p{
+    padding-top: 20px;
+}
