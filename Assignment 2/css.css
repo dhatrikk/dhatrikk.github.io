@@ -1,4 +1,4 @@
-@media (min-width:992px) {
+@media (min-width:991px) {
 div{
     background-color: grey;
     border: 2px solid black;
@@ -10,7 +10,7 @@ div{
     position: relative;
 }}
 
-@media (max-width:992px) and (min-width:768px) {
+@media (max-width:990px) and (min-width:768px) {
     div{
         background-color: grey;
         border: 2px solid black;
