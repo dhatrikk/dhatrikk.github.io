@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="weather.css">
+    <title>Find out how the weather is like</title>
+</head>
+
+
+<body>
+    <div id="intro">
+     <img id="anime" src="https://img.freepik.com/premium-vector/attractive-young-tv-news-weather-reporter-man-showing-weather-forecast_51635-8281.jpg?w=2000"
+       height="250px" alt="">
+     <h3 id="header">wanna know! <br>how is the weather around you,<br> just enter your location here <hr></h3>
+    </div>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Input Location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="https://static.thenounproject.com/png/1688441-200.png" height="200px" width="30px">
+            <p>Oops! Invalid location</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <button>change to farhenheit</button>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                    <button>Percentage</button>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                    <button>change to miles/hr</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
